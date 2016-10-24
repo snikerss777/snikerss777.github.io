@@ -1,0 +1,43 @@
+body{
+	background-image: url('../images/real1.jpg');
+}
+
+
+#menu{
+	/*font-size: 40px;*/
+	background: black !important; /* fallback color */
+   	/*background: rgba(0, 0, 0, 0.7);*/
+	position: fixed;
+	z-index: 10; 
+}
+
+#menu a{
+	color:white;
+}
+
+
+.mySection {	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: rgb(1, 1, 1); /* fallback color */
+   	background: rgba(255, 255, 255, 0.7);
+   	
+   	padding-top: 50px;
+   	font-size: 2.5vh;
+   	color: black;
+}
+
+.mySection .row{
+	 padding-bottom: 50px
+
+}
+
+#captionDiv{
+	padding-bottom: 25px;
+}
+
+
+.cover{
+	min-height: 15% !important;
+}
