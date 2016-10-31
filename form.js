@@ -1,8 +1,6 @@
 function sendMessage(){
 
 	alert("Wiadomość została wysłana");
-
-
 	$('#firstname').val("");
 
 
@@ -11,9 +9,6 @@ function sendMessage(){
 
 
 	$('#message').val("");	
-
-
-
 }
 
 
