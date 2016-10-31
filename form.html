@@ -67,7 +67,7 @@
           <h3>Wyślij wiadomość</h3>
           <form>
             <div class="form-group">
-              <label for="formGroupExampleInput">Podaj Imię</label>
+              <label for="formGroupExampleInput" >Podaj Imię</label>
               <input type="text" class="form-control" id="firstname" >
             </div>
 
@@ -81,9 +81,10 @@
               <input type="text" class="form-control" id="message" >
             </div>
 
-            <button type="submit" class="btn btn-primary">Wyślij wiadomość</button>
+            <button onclick="sendMessage()" type="submit" class="btn btn-primary" id="submit">Wyślij wiadomość</button>
 
           </form>
+          <br><br>
       </div>
     </div>
     <footer class="section section-primary">
